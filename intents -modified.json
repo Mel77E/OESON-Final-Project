@@ -1,0 +1,451 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Hey, What's up?",
+                "Greetings",
+                "What's happening?",
+                "Good Morning",
+                "Good evening",
+                "Hi",
+                "Hello there",
+                "Hi, can you help me?",
+                "Hello, is this the help desk?",
+                "Good afternoon"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?",
+                "Good to see you! How can I help you?",
+                "Hi! How may I assist you today?",
+                "Hi, it's great to have you here! How can I assist you?",
+                "Hello, how can I assist you today?",
+                "Good evening, how can I help?",
+                "Hi! What can I do for you?",
+                "Hello, ready to assist you. What do you need?",
+                "Good afternoon! How may I be of service?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time",
+                "See you soon!",
+                "Goodbye and stay well!",
+                "Have a great day!",
+                "Until next time!",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Goodbye! Take care and have a wonderful day!",
+                "Farewell! Come back again whenever you need assistance.",
+                "Take care! See you soon.",
+                "Until next time! Have a wonderful day!",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "Wow, thank you so much!",
+                "Thanks for everything!",
+                "Many thanks!",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "Happy to assist you!",
+                "You're welcome anytime!",
+                "It's my pleasure to assist!",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand",
+                "Sorry, I couldn't catch that. Can you repeat?",
+                "Not quite clear, could you elaborate?",
+                "I'm having difficulty comprehending. Please provide more info.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered",
+                "How can you assist me?",
+                "What support do you provide?",
+                "What kind of assistance can I get?",
+                "What support is offered here?",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies",
+                "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "adverse_drug",
+            "patterns": [
+                "How to check Adverse drug reaction?",
+                "Open adverse drugs module",
+                "Give me a list of drugs causing adverse behavior",
+                "List all drugs suitable for patient with adverse reaction",
+                "Which drugs dont have adverse reaction?",
+                "How do I know if a drug causes adverse effects?",
+                "Find drugs suitable for patients with adverse reactions.",
+                "List drugs causing adverse behavior, please.",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Navigating to Adverse drug reaction module",
+                "Redirecting to the adverse drug effects section.",
+                "Opening the adverse reactions section for drugs.",
+                "Providing access to the adverse drug reaction section",
+                "Showing medications without adverse reactions.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "blood_pressure",
+            "patterns": [
+                "Open blood pressure module",
+                "Task related to blood pressure",
+                "Blood pressure data entry",
+                "I want to log blood pressure results",
+                "Blood pressure data management",
+                "How can I enter blood pressure data?",
+                "Blood pressure data management instructions, please.",
+                "Where can I manage my blood pressure data?",
+                "Show me the blood pressure data entry page.",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Navigating to Blood Pressure module",
+                "Opening the section for blood pressure tracking.",
+                "Managing blood pressure data as requested.",
+                "Accessing the blood pressure monitoring section.",
+                "Displaying the blood pressure data entry page.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "blood_pressure_search",
+            "patterns": [
+                "I want to search for blood pressure result history",
+                "Blood pressure for patient",
+                "Load patient blood pressure result",
+                "Show blood pressure results for patient",
+                "Find blood pressure results by ID",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Please provide Patient ID",
+                "Patient ID?",
+                "Please provide the Patient ID for blood pressure results.",
+                "To proceed, please provide the Patient ID.",
+                "Patient ID needed to fetch blood pressure results.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                "search_blood_pressure_by_patient_id"
+            ]
+        },
+        {
+            "tag": "search_blood_pressure_by_patient_id",
+            "patterns": [
+                "Find blood pressure records for patient",
+                "Retrieve patient's blood pressure data",
+                "Check patient's blood pressure history",
+                "Show me blood pressure results for a patient",
+                "Get blood pressure details for a patient ID",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Loading Blood pressure result for Patient",
+                "Checking the patient's blood pressure history.",
+                "Loading blood pressure details for the patient ID.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "pharmacy_search",
+            "patterns": [
+                "Find me a pharmacy",
+                "Find pharmacy",
+                "List of pharmacies nearby",
+                "Locate pharmacy",
+                "Search pharmacy",
+                "I'm looking for a pharmacy nearby.",
+                "List pharmacies around my location.",
+                "Search for a pharmacy around here",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Please provide pharmacy name",
+                "Please provide the specific pharmacy name for assistance.",
+                "To proceed, we need the name of the pharmacy.",
+                "Kindly input the name of the pharmacy.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                "search_pharmacy_by_name"
+            ]
+        },
+        {
+            "tag": "search_pharmacy_by_name",
+            "patterns": [
+                "Find pharmacy by name",
+                "Locate a specific pharmacy",
+                "Search for pharmacy details",
+                "Get information on a pharmacy",
+                "Find nearest pharmacy by name",
+                "Can you locate a specific pharmacy?",
+                "Get information about a pharmacy.",
+                "Find the nearest pharmacy by name.",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Loading pharmacy details",
+                "Loading details for the requested pharmacy.",
+                "Retrieving pharmacy details.",
+                "Fetching details for the nearest pharmacy with the given name.",
+                "Displaying information about the requested pharmacy.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "hospital_search",
+            "patterns": [
+                "Lookup for hospital",
+                "Searching for hospital to transfer patient",
+                "I want to search hospital data",
+                "Hospital lookup for patient",
+                "Looking up hospital details",
+                "I'm searching for a hospital.",
+                "I want to find hospital data.",
+                "Seeking details about hospitals.",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Please provide hospital name or location",
+                "Kindly input the hospital's name or location.",
+                "To proceed, we need the hospital's name or location.",
+                "We require the hospital's name or location to assist you.",
+                "Please provide the specific hospital's name or location.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                "search_hospital_by_params"
+            ]
+        },
+        {
+            "tag": "search_hospital_by_params",
+            "patterns": [
+                "Find hospitals by type",
+                "Search for hospitals based on type",
+                "Looking for a specific type of hospital",
+                "Locate hospitals of a particular type",
+                "Which hospitals specialize in a certain type of care?",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Please provide hospital type",
+                "Kindly input the specific type of hospital.",
+                "To proceed, we need the type of hospital you're looking for.",
+                "We require the type of hospital to assist you further.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                "search_hospital_by_type"
+            ]
+        },
+        {
+            "tag": "search_hospital_by_type",
+            "patterns": [
+                "Show me hospitals for a specific medical condition",
+                "List hospitals specializing in cardiology",
+                "Find hospitals offering orthopedic services",
+                "Display hospitals for pediatric care",
+                "Which hospitals provide oncology treatments?",
+                "Could you assist me with...",
+                "I have a question about...",
+                "Can you tell me more about...",
+                "I need help with...",
+                "What can you tell me about..."
+            ],
+            "responses": [
+                "Loading hospital details",
+                "Listing hospitals specializing in cardiology.",
+                "Finding hospitals offering orthopedic services.",
+                "Displaying hospitals specializing in pediatric care.",
+                "Loading information about hospitals providing oncology treatments.",
+                "Sure, I can help with that. What specifically would you like to know?",
+                "I'd be happy to assist you. Could you please provide more details?",
+                "Of course, let me provide some information on that.",
+                "I can help with that. What exactly do you need to know?",
+                "Let's see how I can assist you with that."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
